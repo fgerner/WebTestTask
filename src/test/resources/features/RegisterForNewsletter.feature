@@ -7,7 +7,7 @@ Feature: Register For Newsletter
   Background:
     Given Shopper has navigated to the store
 
-  Scenario: Register email address
+  Scenario Outline: Register email address 
     When Shopper registers a "valid" email address
     Then A "success" message is displayed
 

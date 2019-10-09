@@ -63,6 +63,8 @@ public class Stepdefinitions {
 
     @Before
     public void Setup(){
+        String pathToChromeDriver = "src/test/resources/lib/chromedriver";
+        System.setProperty("webdriver.chrome.driver", pathToChromeDriver);
         driver = new ChromeDriver();
     }
 

@@ -22,7 +22,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Stepdefs.shopper_has_navigated_to_the_store()"
+  "location": "Stepdefinitions.shopper_has_navigated_to_the_store()"
 });
 formatter.result({
   "status": "passed"
@@ -42,7 +42,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Stepdefs.shopper_navigates_then(String,String)"
+  "location": "Stepdefinitions.shopper_navigates_then(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -52,7 +52,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Stepdefs.the_Category_name_should_be(String)"
+  "location": "Stepdefinitions.the_Category_name_should_be(String)"
 });
 formatter.result({
   "status": "passed"
@@ -84,58 +84,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Stepdefs.shopper_has_navigated_to_the_store()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Register email address",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@NewsletterRegistration"
-    }
-  ]
-});
-formatter.step({
-  "name": "Shopper registers a \"valid\" email address",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Stepdefs.shopper_registers_a_email_address(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "A \"success\" message is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Stepdefs.a_message_is_displayed(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Shopper has navigated to the store",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Stepdefs.shopper_has_navigated_to_the_store()"
+  "location": "Stepdefinitions.shopper_has_navigated_to_the_store()"
 });
 formatter.result({
   "status": "passed"
@@ -155,7 +104,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "Stepdefs.shopper_registers_a_email_address(String)"
+  "location": "Stepdefinitions.shopper_registers_a_email_address(String)"
 });
 formatter.result({
   "status": "passed"
@@ -165,7 +114,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Stepdefs.a_message_is_displayed(String)"
+  "location": "Stepdefinitions.a_message_is_displayed(String)"
 });
 formatter.result({
   "status": "passed"
