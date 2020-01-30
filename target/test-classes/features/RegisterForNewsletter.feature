@@ -7,11 +7,16 @@ Feature: Register For Newsletter
   Background:
     Given Shopper has navigated to the store
 
-  Scenario Outline: Register email address 
-    When Shopper registers a "valid" email address
-    Then A "success" message is displayed
+  Scenario Outline: Register <email> email address
+    When Shopper registers a <email> email address
+    Then A <message> message is displayed
+    Examples:
+      | email   | message       |
+      | valid   | success       |
+      | invalid | Invalid email |
 
-  Scenario: Invalid email address error message
-    When Shopper registers a "invalid" email address
-    Then A "Invalid email" message is displayed
+
+# Scenario: Invalid email address error message
+#   When Shopper registers a "invalid" email address
+#   Then A "Invalid email" message is displayed
 

@@ -1,0 +1,3 @@
+com/fred/pageObjects/LandingPage.class
+com/fred/stepDefinitions/Stepdefinitions.class
+com/fred/RunCucumberTest.class
